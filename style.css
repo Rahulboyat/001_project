@@ -5,6 +5,11 @@
     font-family: sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+    
+}
+
 
 
 .nav {
@@ -869,11 +874,11 @@
 }
 
 .left_border_blue h {
-    font-size: 22px;
+    font-size: 22px; 
     color: black;
     font-weight: bold;
     padding-left: 30px;
-
+text-align: center;
 }
 
 .about_002 h {
@@ -1154,6 +1159,12 @@
     padding: 10px 0px;
     text-transform: capitalize;
     
+}
+
+
+.you_text{
+margin-top: 25px;
+margin-bottom: 25px;
 }
 
 

@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="splide.min.css">
     <link rel="stylesheet" href="style.css">
     <title>ebooks</title>
@@ -28,7 +29,8 @@
                     <li><a href="#"> Courese</a>
                         <div class="courese_sub_menu submenu">
                             <ul>
-                                <li><a href="file:///C:/Users/shinu/Desktop/ankur%20warikoo/changeoftime.html"> take change of your time</a></li>
+                                <li><a href="file:///C:/Users/shinu/Desktop/ankur%20warikoo/changeoftime.html"> take
+                                        change of your time</a></li>
                                 <li><a href="#"> complite guide to stating up</a></li>
                                 <li><a href="#"> how to youtube</a></li>
                                 <li><a href="#"> how to speak effectively</a></li>
@@ -39,11 +41,12 @@
 
                     </li>
                     <li><a href=""> Content</a>
-                        <div class="content_sub_menu submenu">
+                        <div class="content_sub_menu submenu">``
                             <ul>
-                                <li><a href="file:///C:/Users/shinu/Desktop/ankur%20warikoo/news.html">newsletter</a></li>
+                                <li><a href="file:///C:/Users/shinu/Desktop/ankur%20warikoo/news.html">newsletter</a>
+                                </li>
                                 <li><a href="file:///C:/Users/shinu/Desktop/ankur%20warikoo/ebook.html">ebooks</a></li>
-                                <li><a href="#">videos</a></li>
+                                <li><a href="file:///C:/Users/shinu/Desktop/ankur%20warikoo/youtube.html">videos</a></li>
                                 <li><a href="#">podcast</a></li>
                                 <li><a href="#">blog</a></li>
                                 <li><a href="#">mobile wallpapers</a></li>
@@ -67,7 +70,7 @@
     </section>
 
     <div class="mt-5 pt-4 bt-5 mb-4 ">
-        <div class="heading container">
+        <div class="heading container" data-aos="fade-down">
             <h>ebook downloads</h>
             <p>An ebook (short for electronic book), also known as an e-book or eBook, is a book publication made
                 available in digital form, consisting of text, images, or both, readable on the flat-panel display of
@@ -78,9 +81,9 @@
     </div>
 
     <section class="ebook_container_content container">
-        <div class="row gy-5" >
+        <div class="row gy-5">
             <div class="col-md-6">
-                <div class="ebook_content pt-3">
+                <div class="ebook_content pt-3" data-aos="fade-up">
                     <h>ebook #1</h>
                     <p>In the 2000s, there was a trend of print and e-book sales moving to the Internet,[citation
                         needed] where readers buy traditional paper books and e-books on websites using e-commerce
@@ -89,20 +92,19 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="ebook_img">
-                    <img src="img/ebook1.jpg" >
-
+                <div class="ebook_img" data-aos="flip-up">
+                    <img src="img/ebook1.jpg">
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="ebook_img">
-                    <img src="img/ebook1.jpg" >
+                <div class="ebook_img" data-aos="flip-right">
+                    <img src="img/ebook1.jpg">
 
                 </div>
             </div>
 
-            <div class="col-md-6 order-  " >
-                <div class="ebook_content pt-3 ">
+            <div class="col-md-6 order-  ">
+                <div class="ebook_content pt-3"  data-aos="fade-up">
                     <h>ebook #2</h>
                     <p>In the 2000s, there was a trend of print and e-book sales moving to the Internet,[citation
                         needed] where readers buy traditional paper books and e-books on websites using e-commerce
@@ -110,8 +112,9 @@
                         books on publisher or bookstore websites and selecting and ordering titles online;</p>
                 </div>
             </div>
+
             <div class="col-md-6">
-                <div class="ebook_content pt-3">
+                <div class="ebook_content pt-3"  data-aos="zoom-in">
                     <h>ebook #3</h>
                     <p>In the 2000s, there was a trend of print and e-book sales moving to the Internet,[citation
                         needed] where readers buy traditional paper books and e-books on websites using e-commerce
@@ -120,8 +123,8 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="ebook_img">
-                    <img src="img/ebook1.jpg" >
+                <div class="ebook_img"  data-aos="flip-down">
+                    <img src="img/ebook1.jpg">
                 </div>
             </div>
     </section>
@@ -187,6 +190,15 @@
             })
         })
     </script>
+
+    <script>
+        AOS.init({
+            duration: 1500,
+            // once: true,
+
+        });
+    </script>
+
 
 </body>
 

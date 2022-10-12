@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="splide.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
@@ -26,13 +27,13 @@
             <a href="index.html"><img src="img/Logo_White_Vector.png" class="img-fluid logo"></a>
             <div class="menu_itmes">
                 <ul class="d-flex  ">
-                    <li><a href="#"> Courese</a>
+                    <li><a href="#"> Courses</a>
                         <div class="courese_sub_menu submenu">
 
                             <ul>
                                 <li><a href="#"> take change of your time</a></li>
                                 <li><a href="#"> complite guide to stating up</a></li>
-                                <li><a href="youtube.html"> how to
+                                <li><a href="file:///C:/Users/shinu/Desktop/ankur%20warikoo/youtube.html"> how to
                                         youtube</a></li>
                                 <li><a href="#"> how to speak effectively</a></li>
                                 <li><a href="#"> webveda login </a></li>
@@ -44,8 +45,9 @@
                     <li><a href=""> Content</a>
                         <div class="content_sub_menu submenu">
                             <ul>
-                                <li><a href="news.html">newsletter</a></li>
-                                <li><a href="ebook.html">ebooks</a></li>
+                                <li><a href="file:///C:/Users/shinu/Desktop/ankur%20warikoo/news.html">newsletter</a>
+                                </li>
+                                <li><a href="file:///C:/Users/shinu/Desktop/ankur%20warikoo/ebook.html">ebooks</a></li>
                                 <li><a href="#">videos</a></li>
                                 <li><a href="#">podcast</a></li>
                                 <li><a href="#">blog</a></li>
@@ -57,7 +59,7 @@
                     <li><a href="#"> Public Speaking</a></li>
                     <li><a href="investing.html"> Investing</a></li>
                     <li><a href="about.html"> about</a></li>
-                    <li><a href="contect.html"> contect</a></li>
+                    <li><a href="file:///C:/Users/shinu/Desktop/ankur%20warikoo/contect.html"> contect</a></li>
                 </ul>
             </div>
 
@@ -72,15 +74,15 @@
 
 
     <section class="youtube_continer">
-    <div class="youtube_headig ">
-        <h1>youtube content</h1>
-    </div>
+        <div class="youtube_headig container ">
+            <h1>youtube content</h1>
+        </div>
     </section>
 
     <section class="youtube_container container">
 
 
-        <div class="you_text ">
+        <div class="you_text " data-aos="fade-up">
             <h>youtube content #1</h>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus asperiores porro possimus
                 quisquam
@@ -93,9 +95,9 @@
                 reiciendis cum iure! Facilis, nemo. Doloremque molestias qui ipsam dignissimos quisquam, nihil
                 debitis
                 id possimus?</p>
+        </div>
 
-
-
+        <div class="you_text " data-aos="fade-up">
             <h>youtube content #2</h>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus asperiores porro possimus
                 quisquam
@@ -108,6 +110,11 @@
                 reiciendis cum iure! Facilis, nemo. Doloremque molestias qui ipsam dignissimos quisquam, nihil
                 debitis
                 id possimus?</p>
+
+        </div>
+
+
+        <div class="you_text " data-aos="fade-up">
 
             <h>youtube content #3</h>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus asperiores porro possimus
@@ -122,7 +129,11 @@
                 debitis
                 id possimus?</p>
 
+        </div>
 
+
+
+        <div class="you_text " data-aos="fade-up">
             <h>youtube content #4</h>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus asperiores porro possimus
                 quisquam
@@ -136,7 +147,9 @@
                 debitis
                 id possimus?</p>
 
+        </div>
 
+        <div class="you_text " data-aos="fade-up">
             <h>youtube content #5</h>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus asperiores porro possimus
                 quisquam
@@ -149,10 +162,8 @@
                 reiciendis cum iure! Facilis, nemo. Doloremque molestias qui ipsam dignissimos quisquam, nihil
                 debitis
                 id possimus?</p>
-
-
         </div>
-    </section> 
+    </section>
 
 
     <section class="footer_container mt-5 pt-5 pb-5">
@@ -181,8 +192,8 @@
                     <ul>
                         <li> <a href="#">latest videos</a></li>
                         <li> <a href="#">courses</a></li>
-                        <li> <a href="news.html">newsletter</a></li>
-                        <li> <a href="ebook.html">do epic shit</a></li>
+                        <li> <a href="file:///C:/Users/shinu/Desktop/ankur%20warikoo/news.html">newsletter</a></li>
+                        <li> <a href="file:///C:/Users/shinu/Desktop/ankur%20warikoo/ebook.html">do epic shit</a></li>
                     </ul>
                 </div>
             </div>
@@ -202,7 +213,7 @@
 
     </section>
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
     <script src="js/splide.js"></script>
 
@@ -215,7 +226,13 @@
         })
     </script>
 
-
+<script>
+    AOS.init({
+        duration: 1500,
+        dealy: 2000,
+        // once: true,
+    });
+</script>
 
 </body>
 
