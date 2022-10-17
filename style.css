@@ -477,6 +477,7 @@ html{
     /* width: 300px; */
     /* padding: 10px; */
     border-radius: 27px;
+    overflow: hidden;
 }
 
 .courses_images img:hover {
